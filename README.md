@@ -1,6 +1,6 @@
 # CO_Predict_Code
 ## Use SAGE or other GNN model to predict CO emission level.
-## Core code and required data of the paper "Predicting Carbon Monoxide Emissions Level from Urabn Road Taxis Based on Graph Neural Network"
+**Core code and required data of the paper "Predicting Carbon Monoxide Emissions Level from Urabn Road Taxis Based on Graph Neural Network"**
 1. dgl_GNNS.py file for SAGE and other graph convolutional network model except GAT implementation code, clone down the project can be run directly after running, through the comment switch can choose to use what kind of graph convolutional network layer.
 2. Due to the specificity of GAT, dgl_GAT.py and dgl_GAT2_official.py two files separately implement GAT and GAT2, also can be run directly.
 3. Adjacency relation.csv file for the road network structure related information file, the specific use of the method can refer to the code in the dgl_GNNS.py file, where the comments are written clearly.
